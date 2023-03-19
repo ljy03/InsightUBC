@@ -1,0 +1,36 @@
+{
+	"title": "In sections dataset sections, find entries whose Department ends with \"y\"; show Department and Average; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "*y"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "ursy",
+			"sections_avg": 77.89
+		},
+		{
+			"sections_dept": "ursy",
+			"sections_avg": 77.89
+		},
+		{
+			"sections_dept": "ursy",
+			"sections_avg": 82.83
+		},
+		{
+			"sections_dept": "ursy",
+			"sections_avg": 82.83
+		}
+	]
+}

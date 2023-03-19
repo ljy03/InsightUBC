@@ -1,0 +1,19 @@
+{
+	"title": "In sections dataset sections, find entries whose undefined; show Department and Year; sort in ascending order by Year.",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"sections_avg": 95
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,61 @@
+{
+	"title": "In sections dataset sections, find entries whose Average is greater than 99; show Audit, Pass, UUID, ID, Instructor, Title, Fail, Average, Department and Average; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 99
+			}
+		},
+		"OPTIONS": {
+			"ORDER": "sections_avg",
+			"COLUMNS": [
+				"sections_audit",
+				"sections_pass",
+				"sections_uuid",
+				"sections_id",
+				"sections_instructor",
+				"sections_title",
+				"sections_fail",
+				"sections_avg",
+				"sections_dept",
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_audit": 0,
+			"sections_pass": 16,
+			"sections_uuid": "26777",
+			"sections_id": "574",
+			"sections_instructor": "cox, daniel",
+			"sections_title": "career planning",
+			"sections_fail": 0,
+			"sections_avg": 99.19,
+			"sections_dept": "cnps"
+		},
+		{
+			"sections_audit": 0,
+			"sections_pass": 9,
+			"sections_uuid": "5374",
+			"sections_id": "527",
+			"sections_instructor": "",
+			"sections_title": "algb topology i",
+			"sections_fail": 0,
+			"sections_avg": 99.78,
+			"sections_dept": "math"
+		},
+		{
+			"sections_audit": 0,
+			"sections_pass": 9,
+			"sections_uuid": "5373",
+			"sections_id": "527",
+			"sections_instructor": "gomez, jose",
+			"sections_title": "algb topology i",
+			"sections_fail": 0,
+			"sections_avg": 99.78,
+			"sections_dept": "math"
+		}
+	]
+}

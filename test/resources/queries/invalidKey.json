@@ -1,0 +1,19 @@
+{
+	"title": "In rooms dataset sections, find entries whose sections_num is greater than 95; show sections_dept and sections_avg; sort in ascending order by sections_avg.",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_num": 95
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

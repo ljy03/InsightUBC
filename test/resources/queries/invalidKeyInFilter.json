@@ -1,0 +1,19 @@
+{
+	"title": "In sections dataset sections, find entries whose WHERE is greater than 99; show Department and Average; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"WHERE": 99
+			}
+		},
+		"OPTIONS": {
+			"ORDER": "sections_avg",
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

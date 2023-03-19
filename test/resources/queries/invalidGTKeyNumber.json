@@ -1,0 +1,19 @@
+{
+	"title": "In sections dataset sections, find entries whose Average is greater than cpsc; show Department and Year; sort in ascending order by Year.",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": "cpsc"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

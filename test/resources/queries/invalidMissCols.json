@@ -1,0 +1,13 @@
+{
+	"title": "{\"WHERE\":{\"GT\":{\"sections_avg\":95}},\"OPTIONS\":{}}",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 95
+			}
+		},
+		"OPTIONS": {}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

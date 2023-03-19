@@ -1,0 +1,19 @@
+{
+	"title": "In sections dataset nosections, find entries whose Average is greater than 99; show Department and Year; sort in ascending order by Year.",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"nosections_avg": 99
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"nosections_dept",
+				"nosections_year"
+			],
+			"ORDER": "nosections_year"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,944 @@
+{
+	"title": "In sections dataset sections, find entries whose Average is greater than 95; show Department and Year; sort in ascending order by Year.",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 95
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "thtr",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "plan",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "phth",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "musc",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "musc",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "midw",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "libr",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "kin",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "kin",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "frst",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "eece",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "edst",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "edst",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "audi",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "arst",
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "arst",
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "mine",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "eece",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "phil",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "edst",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "plan",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "musc",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "mine",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "midw",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "civl",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "audi",
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "phth",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "mine",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "kin",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "kin",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "educ",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "edst",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "phar",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "kin",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "spph",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "phys",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "musc",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "libr",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "frst",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "educ",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "math",
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "etec",
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "epse",
+			"sections_year": 2016
+		}
+	]
+}

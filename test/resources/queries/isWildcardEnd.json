@@ -1,0 +1,164 @@
+{
+	"title": "In sections dataset sections, find entries whose Department begins with \"z\"; show Department and Average; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "z*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "zool",
+			"sections_avg": 83.67
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 85
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 85
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 86.25
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 86.25
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 86.8
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.14
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.2
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.7
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.75
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.08
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.67
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.75
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.88
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.17
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.27
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.45
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.45
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.5
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.5
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.56
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.56
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.57
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 90.2
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 90.45
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 90.45
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 91.67
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 91.67
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.1
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.1
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.71
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.71
+		}
+	]
+}

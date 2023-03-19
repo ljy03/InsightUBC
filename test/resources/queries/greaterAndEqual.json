@@ -1,0 +1,206 @@
+{
+	"title": "In sections dataset sections, find entries whose Average is greater than 95 and Department is \"adhe\" or Average is equal to 95; show Department and Average; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 95
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "adhe"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "sowk",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "obst",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_avg": 96.11
+		}
+	]
+}

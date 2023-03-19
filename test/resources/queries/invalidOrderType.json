@@ -1,0 +1,19 @@
+{
+	"title": "{\"WHERE\":{\"GT\":{\"nosections_avg\":99}},\"OPTIONS\":{\"COLUMNS\":[\"nosections_dept\",\"nosections_year\"],\"ORDER\":99}}",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 99
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": 99
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}
