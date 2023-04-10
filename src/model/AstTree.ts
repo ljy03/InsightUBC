@@ -91,8 +91,7 @@ export class AstTree {
 					return fulfill(this);
 				})
 				.catch((err: any) => {
-					// 					console.log("error in handle Options");
-					return reject(new InsightError("Error building OPTIONS's children nodes"));
+					return reject(err);
 				});
 		});
 	}
@@ -146,7 +145,8 @@ export class AstTree {
 						return fulfill(this);
 					})
 					.catch((err: any) => {
-						return reject(new InsightError("Options clause not valid"));
+// 						return reject(new InsightError("Options clause not valid"));
+						return reject(err);
 					});
 			} else {
 				return reject(new InsightError("invalid EBNF key"));

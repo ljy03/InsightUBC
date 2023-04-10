@@ -86,7 +86,6 @@ export class BuildingHelper {
 		if (this.validNode(listNode)) {
 			for (let node of listNode) {
 				if (this.validNode(node) && node.nodeName === "table") {
-					// 					console.log("found table");
 					rtn = this.findFromTable(node);
 					if (rtn.length !== 0) {
 						return rtn;

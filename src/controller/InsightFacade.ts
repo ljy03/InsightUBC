@@ -84,10 +84,12 @@ export default class InsightFacade implements IInsightFacade {
 				return reject(new NotFoundError("Id does not exist"));
 			}
 
+			let newList: string[] = [];
 			this.IdList.forEach((element, index) => {
-				if (element === id) {
-					delete this.IdList[index];
+				if (element !== id) {
+					newList.push(element);
 				}
+				this.IdList = newList;
 			});
 
 			this.datasets.delete(id);

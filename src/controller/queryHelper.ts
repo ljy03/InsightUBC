@@ -24,7 +24,6 @@ export class QueryHelper {
 	}
 
 	public buildAST(query: any): Promise<AstTree> {
-		// 		console.log("in buildAST");
 		return new Promise((fulfill, reject) => {
 			if (!this.util.validateQuery(query)) {
 				return reject(new InsightError("invalid EBNF structure"));

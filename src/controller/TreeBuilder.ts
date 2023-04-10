@@ -185,8 +185,7 @@ export class TreeBuilder {
 						return fulfill(this.tree);
 					})
 					.catch((err: any) => {
-						// 						console.log("error in valid columns");
-						return reject(new InsightError("COLUMNS clause not valid"));
+						return reject(err);
 					});
 			} else {
 				this.optionValidator

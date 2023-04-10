@@ -10,7 +10,6 @@ export class OptionValidator extends QueryValidator {
 	public validOptions(options: any): Promise<any> {
 		// implement
 		return new Promise((fulfill, reject) => {
-			// 			console.log("in validOptions");
 			if (!this.validQuery(options)) {
 				return reject(new InsightError("invalid options query clause"));
 			}
@@ -40,34 +39,24 @@ export class OptionValidator extends QueryValidator {
 
 	public validColumns(columns: any): Promise<any> {
 		return new Promise((fulfill, reject) => {
-			// 			console.log("before 1");
 			if (!Array.isArray(columns)) {
-				// 				console.log("error here 1");
 				return reject(new InsightError("columns should be array"));
 			}
-			// 			console.log("before 2");
 			if (columns.length < 1) {
-				// 				console.log("error here 2");
 				return reject(new InsightError("COLUMNS must be a non-empty array"));
 			}
 
 			let rtnCols = [];
 			for (let col of columns) {
-				// 				console.log("before 3");
 				if (typeof col !== "string") {
-					// 					console.log("error here 3");
 					return reject(new InsightError("COLUMNS should be string"));
 				}
 
 				let lists = col.split("_");
-				// 				console.log("before 4");
 				if (lists.length !== 2 && lists.length !== 1) {
-					// 					console.log("error here 4");
 					return reject(new InsightError("invalid columns key"));
 				}
-				// 				console.log("before 5");
 				if (lists.length === 2 && !this.sectionKeys.includes(lists[1]) && !this.roomKeys.includes(lists[1])) {
-					// 					console.log("error here 5");
 					return reject(new InsightError("invalid cols key not in sections nor in rooms"));
 				}
 

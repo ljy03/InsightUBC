@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  background-color: #F2F2F2;
+}
+
+.navbar {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.navbar h1 {
+  color: #2A50BD;
+  font-weight: bold;
+}
+.links {
+  margin-left: auto;
+  font-weight: bold;
+}
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #2A50BD;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: #2A50BD;
+  background-color: #C2DEFC;
+}
+
+.body {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.data {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.data label {
+  text-align: left;
+  display: block;
+  font-weight: bold;
+}
+.data h2 {
+  font-size: 20px;
+  color: #2A50BD;
+  margin-bottom: 30px;
+}
+.data input, .data checkbox {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #8f8f8f;
+  display: block;
+  background-color: #FFFFFF;
+}
+.data button {
+  background: #2A50BD;
+  color: #FFFFFF;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.data button:hover {
+  color: #2A50BD;
+  background-color: #C2DEFC;
+}
+
+.checkboxes {
+	padding: 20px;
+}
+
+.result {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.result td, .result th {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover td {
+	background-color: #C2DEFC;
+}
+
+tr:nth-child(even) td{
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(even):hover td {
+	background-color: #C2DEFC;
+}
+.result th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #2A50BD;
+  color: #FFFFFF;
+}
+
+.clickable {
+cursor: pointer;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 999;
+  width: 800px;
+  transform: translate(-50%, 0);
+  padding: 20px;
+  background-color: #ff5858;
+  font-weight: bold;
+  color: white;
+}
+
+.closebtn {
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 28px;
+  line-height: 20px;
+  cursor: pointer;
+  background-color: #ff5858;
+}
+
